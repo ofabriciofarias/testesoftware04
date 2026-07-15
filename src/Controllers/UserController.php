@@ -29,7 +29,8 @@ class UserController
                 'message' => 'Usuário registrado com sucesso!',
                 'data' => [
                     'nome' => $user->getNome(),
-                    'email' => $user->getEmail()
+                    'email' => $user->getEmail(),
+                    'idade' => $user->getIdade()
                 ]
             ];
 

@@ -46,6 +46,7 @@ class UserModuleTest extends TestCase
         );
     }
 
+    //Exemplo de maior de idade
     public function testAceitarMaiorDeIDade(): void
     {
         $user = new User(
