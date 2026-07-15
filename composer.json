@@ -1,0 +1,17 @@
+{
+    "name": "fabri/testesoftware04",
+    "autoload": {
+        "psr-4": {
+            "Fabri\\Testesoftware04\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ofabriciofarias",
+            "email": "63527776+ofabriciofarias@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.2"
+    }
+}
